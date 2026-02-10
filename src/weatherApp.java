@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class WeatherApp {
+
+public class weatherApp {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        WeatherService service = new WeatherService();
+        weatherService service = new weatherService();
         WeatherCache cache = new WeatherCache();
 
         System.out.print("Enter city name: ");
